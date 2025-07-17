@@ -1,0 +1,405 @@
+{
+  "total_books": 66,
+  "parsed_books": 0,
+  "missing_books": [
+    "로마서",
+    "예레미야",
+    "디모데전서",
+    "요한복음",
+    "골로새서",
+    "예레미야애가",
+    "요한이서",
+    "사무엘하",
+    "누가복음",
+    "학개",
+    "베드로후서",
+    "고린도전서",
+    "신명기",
+    "요나",
+    "말라기",
+    "히브리서",
+    "디도서",
+    "에스겔",
+    "출애굽기",
+    "에스라",
+    "오바댜",
+    "사사기",
+    "룻기",
+    "창세기",
+    "고린도후서",
+    "하박국",
+    "빌립보서",
+    "갈라디아서",
+    "시편",
+    "민수기",
+    "역대하",
+    "호세아",
+    "아모스",
+    "에스더",
+    "요엘",
+    "레위기",
+    "나훔",
+    "마가복음",
+    "느헤미야",
+    "욥기",
+    "사도행전",
+    "디모데후서",
+    "요한일서",
+    "다니엘",
+    "마태복음",
+    "열왕기상",
+    "빌레몬서",
+    "스가랴",
+    "베드로전서",
+    "미가",
+    "이사야",
+    "유다서",
+    "아가",
+    "역대상",
+    "전도서",
+    "데살로니가전서",
+    "열왕기하",
+    "잠언",
+    "스바냐",
+    "요한삼서",
+    "데살로니가후서",
+    "여호수아",
+    "에베소서",
+    "요한계시록",
+    "야고보서",
+    "사무엘상"
+  ],
+  "incomplete_books": {},
+  "bible_structure": [
+    {
+      "book_name": "창세기",
+      "max_chapter": 50,
+      "chapter_count": 50
+    },
+    {
+      "book_name": "출애굽기",
+      "max_chapter": 40,
+      "chapter_count": 40
+    },
+    {
+      "book_name": "레위기",
+      "max_chapter": 27,
+      "chapter_count": 27
+    },
+    {
+      "book_name": "민수기",
+      "max_chapter": 36,
+      "chapter_count": 36
+    },
+    {
+      "book_name": "신명기",
+      "max_chapter": 34,
+      "chapter_count": 34
+    },
+    {
+      "book_name": "여호수아",
+      "max_chapter": 24,
+      "chapter_count": 24
+    },
+    {
+      "book_name": "사사기",
+      "max_chapter": 21,
+      "chapter_count": 21
+    },
+    {
+      "book_name": "룻기",
+      "max_chapter": 4,
+      "chapter_count": 4
+    },
+    {
+      "book_name": "사무엘상",
+      "max_chapter": 31,
+      "chapter_count": 31
+    },
+    {
+      "book_name": "사무엘하",
+      "max_chapter": 24,
+      "chapter_count": 24
+    },
+    {
+      "book_name": "열왕기상",
+      "max_chapter": 22,
+      "chapter_count": 22
+    },
+    {
+      "book_name": "열왕기하",
+      "max_chapter": 25,
+      "chapter_count": 25
+    },
+    {
+      "book_name": "역대상",
+      "max_chapter": 29,
+      "chapter_count": 29
+    },
+    {
+      "book_name": "역대하",
+      "max_chapter": 36,
+      "chapter_count": 36
+    },
+    {
+      "book_name": "에스라",
+      "max_chapter": 10,
+      "chapter_count": 10
+    },
+    {
+      "book_name": "느헤미야",
+      "max_chapter": 13,
+      "chapter_count": 13
+    },
+    {
+      "book_name": "에스더",
+      "max_chapter": 10,
+      "chapter_count": 10
+    },
+    {
+      "book_name": "욥기",
+      "max_chapter": 42,
+      "chapter_count": 42
+    },
+    {
+      "book_name": "시편",
+      "max_chapter": 150,
+      "chapter_count": 150
+    },
+    {
+      "book_name": "잠언",
+      "max_chapter": 31,
+      "chapter_count": 31
+    },
+    {
+      "book_name": "전도서",
+      "max_chapter": 12,
+      "chapter_count": 12
+    },
+    {
+      "book_name": "아가",
+      "max_chapter": 8,
+      "chapter_count": 8
+    },
+    {
+      "book_name": "이사야",
+      "max_chapter": 66,
+      "chapter_count": 66
+    },
+    {
+      "book_name": "예레미야",
+      "max_chapter": 52,
+      "chapter_count": 52
+    },
+    {
+      "book_name": "예레미야애가",
+      "max_chapter": 5,
+      "chapter_count": 5
+    },
+    {
+      "book_name": "에스겔",
+      "max_chapter": 48,
+      "chapter_count": 48
+    },
+    {
+      "book_name": "다니엘",
+      "max_chapter": 12,
+      "chapter_count": 12
+    },
+    {
+      "book_name": "호세아",
+      "max_chapter": 14,
+      "chapter_count": 14
+    },
+    {
+      "book_name": "요엘",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "아모스",
+      "max_chapter": 9,
+      "chapter_count": 9
+    },
+    {
+      "book_name": "오바댜",
+      "max_chapter": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_name": "요나",
+      "max_chapter": 4,
+      "chapter_count": 4
+    },
+    {
+      "book_name": "미가",
+      "max_chapter": 7,
+      "chapter_count": 7
+    },
+    {
+      "book_name": "나훔",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "하박국",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "스바냐",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "학개",
+      "max_chapter": 2,
+      "chapter_count": 2
+    },
+    {
+      "book_name": "스가랴",
+      "max_chapter": 14,
+      "chapter_count": 14
+    },
+    {
+      "book_name": "말라기",
+      "max_chapter": 4,
+      "chapter_count": 4
+    },
+    {
+      "book_name": "마태복음",
+      "max_chapter": 28,
+      "chapter_count": 28
+    },
+    {
+      "book_name": "마가복음",
+      "max_chapter": 16,
+      "chapter_count": 16
+    },
+    {
+      "book_name": "누가복음",
+      "max_chapter": 24,
+      "chapter_count": 24
+    },
+    {
+      "book_name": "요한복음",
+      "max_chapter": 21,
+      "chapter_count": 21
+    },
+    {
+      "book_name": "사도행전",
+      "max_chapter": 28,
+      "chapter_count": 28
+    },
+    {
+      "book_name": "로마서",
+      "max_chapter": 16,
+      "chapter_count": 16
+    },
+    {
+      "book_name": "고린도전서",
+      "max_chapter": 16,
+      "chapter_count": 16
+    },
+    {
+      "book_name": "고린도후서",
+      "max_chapter": 13,
+      "chapter_count": 13
+    },
+    {
+      "book_name": "갈라디아서",
+      "max_chapter": 6,
+      "chapter_count": 6
+    },
+    {
+      "book_name": "에베소서",
+      "max_chapter": 6,
+      "chapter_count": 6
+    },
+    {
+      "book_name": "빌립보서",
+      "max_chapter": 4,
+      "chapter_count": 4
+    },
+    {
+      "book_name": "골로새서",
+      "max_chapter": 4,
+      "chapter_count": 4
+    },
+    {
+      "book_name": "데살로니가전서",
+      "max_chapter": 5,
+      "chapter_count": 5
+    },
+    {
+      "book_name": "데살로니가후서",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "디모데전서",
+      "max_chapter": 6,
+      "chapter_count": 6
+    },
+    {
+      "book_name": "디모데후서",
+      "max_chapter": 4,
+      "chapter_count": 4
+    },
+    {
+      "book_name": "디도서",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "빌레몬서",
+      "max_chapter": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_name": "히브리서",
+      "max_chapter": 13,
+      "chapter_count": 13
+    },
+    {
+      "book_name": "야고보서",
+      "max_chapter": 5,
+      "chapter_count": 5
+    },
+    {
+      "book_name": "베드로전서",
+      "max_chapter": 5,
+      "chapter_count": 5
+    },
+    {
+      "book_name": "베드로후서",
+      "max_chapter": 3,
+      "chapter_count": 3
+    },
+    {
+      "book_name": "요한일서",
+      "max_chapter": 5,
+      "chapter_count": 5
+    },
+    {
+      "book_name": "요한이서",
+      "max_chapter": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_name": "요한삼서",
+      "max_chapter": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_name": "유다서",
+      "max_chapter": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_name": "요한계시록",
+      "max_chapter": 22,
+      "chapter_count": 22
+    }
+  ]
+}
