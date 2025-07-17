@@ -1,0 +1,62 @@
+{
+  "name": "bible-studio",
+  "productName": "바이블 스튜디오",
+  "version": "1.0.0",
+  "description": "AI 기반 성경 연구 및 설교문 작성 도구",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "dev": "npm run build:main && npm run build:preload && concurrently \"npm run dev:renderer\" \"wait-on http://localhost:3000 && electron dist/main.js\"",
+    "dev:renderer": "webpack serve --config webpack.renderer.config.js",
+    "build": "npm run build:main && npm run build:preload && npm run build:renderer",
+    "build:main": "webpack --config webpack.main.config.js",
+    "build:preload": "webpack --config webpack.preload.config.js",
+    "build:renderer": "webpack --config webpack.renderer.config.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "parkkiyun",
+    "email": "kiyun0515@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "axios": "^1.10.0",
+    "electron-squirrel-startup": "^1.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/maker-deb": "^7.8.1",
+    "@electron-forge/maker-rpm": "^7.8.1",
+    "@electron-forge/maker-squirrel": "^7.8.1",
+    "@electron-forge/maker-zip": "^7.8.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.1",
+    "@electron-forge/plugin-fuses": "^7.8.1",
+    "@electron/fuses": "^1.8.0",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^24.0.3",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
+    "css-loader": "^7.1.2",
+    "electron": "36.5.0",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.1.1",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.1.10",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "wait-on": "^8.0.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
